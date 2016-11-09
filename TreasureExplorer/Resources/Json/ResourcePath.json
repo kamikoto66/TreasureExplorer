@@ -1,0 +1,476 @@
+{
+  "FileNumber": {
+    "Number": 274
+  },
+  "BackGround": {
+    "Forest_Air": {
+      "StageName": "Forest",
+      "FileName": "Forest_Air.png"
+    },
+    "Forest_B": {
+      "StageName": "Forest",
+      "FileName": "Forest_B.png"
+    },
+    "Forest_C": {
+      "StageName": "Forest",
+      "FileName": "Forest_C.png"
+    },
+    "Forest_D": {
+      "StageName": "Forest",
+      "FileName": "Forest_D.png"
+    },
+    "Ruins_Air": {
+      "StageName": "Ruins",
+      "FileName": "Ruins_Air.png"
+    },
+    "Ruins_B": {
+      "StageName": "Ruins",
+      "FileName": "Ruins_B.png"
+    },
+    "Ruins_C": {
+      "StageName": "Ruins",
+      "FileName": "Ruins_C.png"
+    },
+    "Ruins_D": {
+      "StageName": "Ruins",
+      "FileName": "Ruins_D.png"
+    },
+    "Site_Air": {
+      "StageName": "Site",
+      "FileName": "Site_Air.png"
+    },
+    "Site_B": {
+      "StageName": "Site",
+      "FileName": "Site_B.png"
+    },
+    "Site_C": {
+      "StageName": "Site",
+      "FileName": "Site_C.png"
+    },
+    "gameOverSceneBackGround": {
+      "StageName": "gameOverScene",
+      "FileName": "result.png"
+    },
+    "TitleSceneBackGround": {
+      "StageName": "TitleScene",
+      "FileName": "titleSceneBackGround.png"
+    },
+    "OptionScene": {
+      "StageName": "OptionScene",
+      "FileName": "OptionBackImage.png"
+    },
+    "OptionSceneSound": {
+      "StageName": "OptionScene",
+      "FileName": "sound.png"
+    },
+    "OptionSceneHelp": {
+      "StageName": "OptionScene",
+      "FileName": "help.png"
+    },
+    "TreasureManagerScene": {
+      "StageName": "TreasureManagerScene",
+      "FileName": "backGround.png"
+    },
+    "TreasureUpgrade": {
+      "StageName": "TreasureUpgrade",
+      "FileName": "backImage.png"
+    },
+    "LodingAndStart": {
+      "StageName": "LodingAndStartScene",
+      "FileName": "LodingAndStart.png"
+    },
+    "StartSceneLogo": {
+      "StageName": "StartScene",
+      "FileName": "logo.png"
+    },
+    "OptionCredit": {
+      "StageName": "OptionScene",
+      "FileName": "credit.png"
+    }
+  },
+  "Button": {
+    "action_0": "button/runGameBtn/action_0.png",
+    "action_1": "button/runGameBtn/action_1.png",
+    "knife_0": "button/runGameBtn/knife_0.png",
+    "knife_1": "button/runGameBtn/knife_1.png",
+    "knife_2": "button/runGameBtn/knife_2.png",
+    "torch_0": "button/runGameBtn/torch_0.png",
+    "torch_1": "button/runGameBtn/torch_1.png",
+    "torch_2": "button/runGameBtn/torch_2.png",
+    "rope_0": "button/runGameBtn/rope_0.png",
+    "rope_1": "button/runGameBtn/rope_1.png",
+    "rope_2": "button/runGameBtn/rope_2.png",
+    "pause_0": "button/runGameBtn/pause_0.png",
+    "pause_1": "button/runGameBtn/pause_1.png",
+    "resume_0": "button/runGameBtn/resuam_0.png",
+    "resume_1": "button/runGameBtn/resuam_1.png",
+    "exit_0": "button/runGameBtn/exit_0.png",
+    "exit_1": "button/runGameBtn/exit_1.png",
+    "game_start_0": "button/TitleBtn/btn_game_start_0.png",
+    "game_start_1": "button/TitleBtn/btn_game_start_1.png",
+    "game_exit_0": "button/TitleBtn/btn_game_exit_0.png",
+    "game_exit_1": "button/TitleBtn/btn_game_exit_1.png",
+    "treasure_room_0": "button/TitleBtn/btn_treasure_room_0.png",
+    "treasure_room_1": "button/TitleBtn/btn_treasure_room_1.png",
+    "howToPlay_0": "button/TitleBtn/btn_howtoplay_0.png",
+    "howToPlay_1": "button/TitleBtn/btn_howtoplay_1.png",
+    "option_0": "button/TitleBtn/btn_option_0.png",
+    "option_1": "button/TitleBtn/btn_option_1.png",
+    "btnOk_0": "button/gameOverScene/btn_Ok_0.png",
+    "btnOk_1": "button/gameOverScene/btn_Ok_1.png",
+    "sound_off_0": "button/option/sound_button_off_0.png",
+    "sound_off_1": "button/option/sound_button_off_1.png",
+    "sound_on_0": "button/option/sound_button_on_0.png",
+    "sound_on_1": "button/option/sound_button_off_1.png",
+    "help_off_0": "button/option/help_button_off_0.png",
+    "help_off_1": "button/option/help_button_off_1.png",
+    "help_on_0": "button/option/help_button_on_0.png",
+    "help_on_1": "button/option/help_button_on_1.png",
+    "Upgrade_0": "button/TreasureUpgrade/Upgrade_0.png",
+    "Upgrade_1": "button/TreasureUpgrade/Upgrade_1.png",
+    "Upgrade_back_0": "button/TreasureUpgrade/backButton_0.png",
+    "Upgrade_back_1": "button/TreasureUpgrade/backButton_1.png",
+    "option_back_0": "button/option/option_back_0.png",
+    "option_back_1": "button/option/option_back_1.png"
+  },
+  "UnitBase": {
+    "Bush": "Unit/Bush/base.png",
+    "Moss": "Unit/Moss/base.png",
+    "MoushRoom": "Unit/MoushRoom/base.png",
+    "PoisonPlant": "Unit/PoisonPlant/base.png",
+    "ThornBush": "Unit/ThornBush/base.png",
+    "Tree": "Unit/Tree/base.png",
+    "Swamp": "Unit/Swamp/base.png",
+    "Puddle": "Unit/Puddle/base.png",
+    "Trap": "Unit/Trap/base.png",
+    "Player": "Unit/Player/base.png"
+  },
+  "UnitDieAni": {
+    "Bush": {
+      "UnitName": "Bush",
+      "AniName": "die",
+      "AniCount": 5,
+      "AniRate": 0.1,
+      "Loop": false
+    },
+    "MoushRoom": {
+      "UnitName": "MoushRoom",
+      "AniName": "die",
+      "AniCount": 5,
+      "AniRate": 0.1,
+      "Loop": false
+    },
+    "PoisonPlant": {
+      "UnitName": "PoisonPlant",
+      "AniName": "die",
+      "AniCount": 5,
+      "AniRate": 0.1,
+      "Loop": false
+    },
+    "Tree": {
+      "UnitName": "Tree",
+      "AniName": "die",
+      "AniCount": 6,
+      "AniRate": 0.1,
+      "Loop": false
+    },
+    "Moss": {
+      "UnitName": "Moss",
+      "AniName": "die",
+      "AniCount": 6,
+      "AniRate": 0.1,
+      "Loop": false
+    },
+    "ThornBush": {
+      "UnitName": "ThornBush",
+      "AniName": "die",
+      "AniCount": 6,
+      "AniRate": 0.1,
+      "Loop": false
+    }
+  },
+  "PlayerAni": {
+    "knife_action": {
+      "UnitName": "Player",
+      "AniName": "knife_action",
+      "AniCount": 4,
+      "AniRate": 0.1,
+      "AniLoop": false
+    },
+    "fire_action": {
+      "UnitName": "Player",
+      "AniName": "fire_action",
+      "AniCount": 4,
+      "AniRate": 0.1,
+      "AniLoop": false
+    },
+    "rope_action_shot": {
+      "UnitName": "Player",
+      "AniName": "rope_action_shot",
+      "AniCount": 4,
+      "AniRate": 0.05,
+      "AniLoop": false
+    },
+    "rope_action_up": {
+      "UnitName": "Player",
+      "AniName": "rope_action_up",
+      "AniCount": 3,
+      "AniRate": 0.1,
+      "AniLoop": true
+    },
+    "rope_action_down": {
+      "UnitName": "Player",
+      "AniName": "rope_action_down",
+      "AniCount": 3,
+      "AniRate": 0.1,
+      "AniLoop": false
+    },
+    "run_nomal": {
+      "UnitName": "Player",
+      "AniName": "run_nomal",
+      "AniCount": 10,
+      "AniRate": 0.08,
+      "AniLoop": true
+    },
+    "run_knife": {
+      "UnitName": "Player",
+      "AniName": "run_knife",
+      "AniCount": 10,
+      "AniRate": 0.1,
+      "AniLoop": true
+    },
+    "run_fire": {
+      "UnitName": "Player",
+      "AniName": "run_fire",
+      "AniCount": 10,
+      "AniRate": 0.1,
+      "AniLoop": true
+    },
+    "run_rope": {
+      "UnitName": "Player",
+      "AniName": "run_rope",
+      "AniCount": 10,
+      "AniRate": 0.1,
+      "AniLoop": true
+    }
+  },
+  "ActionEffect": {
+    "knife_effect": {
+      "basePath": "Unit/Player/knife_effect/0.png"
+    },
+    "fire_effect": {
+      "basePath": "Unit/Player/fire_effect/0.png"
+    },
+    "rope_effect": {
+      "basePath": "Unit/Player/rope_effect/0.png"
+    }
+  },
+  "LineBarImage": {
+    "Forest_Left": "LineBar/Forest_Left.png",
+    "Minji": "LineBar/Minji.png",
+    "Ruins_Left": "LineBar/Ruins_Left.png",
+    "Site_Left": "LineBar/Site_Left.png",
+    "Forest_Ruins": "LineBar/Forest_Ruins.png",
+    "Ruins_Site": "LineBar/Ruins_Site.png",
+    "Site_Forest": "LineBar/Site_Forest.png",
+    "Ruins_Right": "LineBar/Ruins_Right.png",
+    "Site_Right": "LineBar/Site_Right.png",
+    "Forest_Right": "LineBar/Forest_Right.png"
+  },
+  "Treasure": {
+    "TreasureBox": {
+      "FileName": "TreasureManagerScene/Treasure/TreasureBox.png"
+    },
+    "ForestAccessoryShabby": {
+      "FileName": "TreasureManagerScene/Treasure/ForestAccessoryShabby.png",
+      "PosX": 900,
+      "PosY": 670,
+      "Scale": 1.0
+    },
+      "RunisAccessoryShabby": {
+      "FileName": "TreasureManagerScene/Treasure/RunisAccessoryShabby.png",
+      "PosX": 250,
+      "PosY": 650,
+      "Scale": 1.0
+    },
+    "SiteAccessoryShabby": {
+      "FileName": "TreasureManagerScene/Treasure/SiteAccessoryShabby.png",
+      "PosX": 570,
+      "PosY": 650,
+      "Scale": 1.0
+    },
+    "ForestCapShabby": {
+      "FileName": "TreasureManagerScene/Treasure/ForestCapShabby.png",
+      "PosX": 850,
+      "PosY": 410,
+      "Scale": 0.5
+    },
+    "RunisCapShabby": {
+      "FileName": "TreasureManagerScene/Treasure/RunisCapShabby.png",
+      "PosX": 240,
+      "PosY": 450,
+      "Scale": 0.5
+    },
+    "SiteCapShabby": {
+      "FileName": "TreasureManagerScene/Treasure/SiteCapShabby.png",
+      "PosX": 550,
+      "PosY": 460,
+      "Scale": 0.3
+    },
+    "ForestWearShabby": {
+      "FileName": "TreasureManagerScene/Treasure/ForestWearShabby.png",
+      "PosX": 860,
+      "PosY": 230,
+      "Scale": 0.4
+    },
+    "RunisWearShabby": {
+      "FileName": "TreasureManagerScene/Treasure/RunisWearShabby.png",
+      "PosX": 200,
+      "PosY": 230,
+      "Scale": 0.5
+    },
+    "SiteWearShabby": {
+      "FileName": "TreasureManagerScene/Treasure/SiteWearShabby.png",
+      "PosX": 550,
+      "PosY": 230,
+      "Scale": 0.5
+    },
+    "ForestAccessoryNomal": {
+      "FileName": "TreasureManagerScene/Treasure/ForestAccessoryNomal.png",
+      "PosX": 900,
+      "PosY": 670,
+      "Scale": 1.0
+    },
+    "RunisAccessoryNomal": {
+      "FileName": "TreasureManagerScene/Treasure/RunisAccessoryNomal.png",
+      "PosX": 250,
+      "PosY": 690,
+      "Scale": 1.0
+    },
+    "SiteAccessoryNomal": {
+      "FileName": "TreasureManagerScene/Treasure/SiteAccessoryNomal.png",
+      "PosX": 570,
+      "PosY": 650,
+      "Scale": 1.0
+    },
+    "ForestCapNomal": {
+      "FileName": "TreasureManagerScene/Treasure/ForestCapNomal.png",
+      "PosX": 850,
+      "PosY": 410,
+      "Scale": 0.5
+    },
+    "RunisCapNomal": {
+      "FileName": "TreasureManagerScene/Treasure/RunisCapNomal.png",
+      "PosX": 230,
+      "PosY": 450,
+      "Scale": 0.5
+    },
+    "SiteCapNomal": {
+      "FileName": "TreasureManagerScene/Treasure/SiteCapNomal.png",
+      "PosX": 550,
+      "PosY": 450,
+      "Scale": 0.3
+    },
+    "ForestWearNomal": {
+      "FileName": "TreasureManagerScene/Treasure/ForestWearNomal.png",
+      "PosX": 900,
+      "PosY": 230,
+      "Scale": 0.4
+    },
+    "RunisWearNomal": {
+      "FileName": "TreasureManagerScene/Treasure/RunisWearNomal.png",
+      "PosX": 180,
+      "PosY": 230,
+      "Scale": 0.5
+    },
+    "SiteWearNomal": {
+      "FileName": "TreasureManagerScene/Treasure/SiteWearNomal.png",
+      "PosX": 550,
+      "PosY": 230,
+      "Scale": 0.5
+    },
+    "ForestAccessoryGood": {
+      "FileName": "TreasureManagerScene/Treasure/ForestAccessoryGood.png",
+      "PosX": 900,
+      "PosY": 690,
+      "Scale": 1.0
+    },
+    "RunisAccessoryGood": {
+      "FileName": "TreasureManagerScene/Treasure/RunisAccessoryGood.png",
+      "PosX": 250,
+      "PosY": 650,
+      "Scale": 1.0
+    },
+    "SiteAccessoryGood": {
+      "FileName": "TreasureManagerScene/Treasure/SiteAccessoryGood.png",
+      "PosX": 600,
+      "PosY": 650,
+      "Scale": 1.0
+    },
+    "ForestCapGood": {
+      "FileName": "TreasureManagerScene/Treasure/ForestCapGood.png",
+      "PosX": 830,
+      "PosY": 410,
+      "Scale": 0.5
+    },
+    "RunisCapGood": {
+      "FileName": "TreasureManagerScene/Treasure/RunisCapGood.png",
+      "PosX": 230,
+      "PosY": 450,
+      "Scale": 0.5
+    },
+    "SiteCapGood": {
+      "FileName": "TreasureManagerScene/Treasure/SiteCapGood.png",
+      "PosX": 550,
+      "PosY": 460,
+      "Scale": 0.3
+    },
+    "ForestWearGood": {
+      "FileName": "TreasureManagerScene/Treasure/ForestWearGood.png",
+      "PosX": 850,
+      "PosY": 230,
+      "Scale": 0.4
+    },
+    "RunisWearGood": {
+      "FileName": "TreasureManagerScene/Treasure/RunisWearGood.png",
+      "PosX": 180,
+      "PosY": 230,
+      "Scale": 0.5
+    },
+    "SiteWearGood": {
+      "FileName": "TreasureManagerScene/Treasure/SiteWearGood.png",
+      "PosX": 550,
+      "PosY": 230,
+      "Scale": 0.6
+    }
+  },
+  "HelpImage": {
+    "HelpKnife": "enemyHelp/help_knife.png",
+    "HelpFire": "enemyHelp/help_fire.png",
+    "HelpRope": "enemyHelp/help_rope.png"
+  },
+  "PauseStartDelay": {
+    "Count_1": "PauseStartDelay/count_1.png",
+    "Count_2": "PauseStartDelay/count_2.png",
+    "Count_3": "PauseStartDelay/count_3.png"
+  },
+  "HpImage": {
+    "HpBar": "hp/hpBar.png",
+    "HpBarImageFront": "hp/HpBarImageFront.png",
+    "nomalHp": "hp/nomalHp.png",
+    "fullHp": "hp/fullHp.png"
+  },
+  "Coin": {
+    "gameOverCoinScore": "coin/coinScore.png",
+    "IngameCoinScore": "coin/coinScore.png",
+    "IngameSponCoin": "coin/coin.png"
+  },
+  "HowToPlay": {
+    "Image_0": "howToPlay/Image_0.png",
+    "Image_1": "howToPlay/Image_1.png",
+    "Image_2": "howToPlay/Image_2.png",
+    "Image_3": "howToPlay/Image_3.png",
+    "Image_4": "howToPlay/Image_4.png",
+    "Image_5": "howToPlay/Image_5.png"
+  }
+}

@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{cf1045d4-9131-48ca-a403-5860128141b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{393c3db8-f352-4979-b13e-710c04e13302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Util">
+      <UniqueIdentifier>{cd2f69b9-109f-4663-a756-ea81ce59c782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Util\enum&amp;define">
+      <UniqueIdentifier>{4a8216b4-c031-4267-adaa-affb499453d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Util\manager">
+      <UniqueIdentifier>{d03266d6-bbea-4d6e-9dcd-6d1147956539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Util\PCH">
+      <UniqueIdentifier>{2383daed-3bdf-4ab7-9a60-58ea6cb6ba99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sprite">
+      <UniqueIdentifier>{6e07169e-74e1-4124-a472-52b8114f0486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sprite\BackGroud">
+      <UniqueIdentifier>{33df7d85-d25c-4818-afb4-e73e088ff0ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Stage">
+      <UniqueIdentifier>{59deceab-e8d0-4b15-8995-b9fbc7292cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sprite\Coin">
+      <UniqueIdentifier>{0377099d-c146-43cb-860f-166f7b1bcdca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sprite\Box">
+      <UniqueIdentifier>{987bcb77-f714-4b34-bdf4-d440deea1be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sprite\Player">
+      <UniqueIdentifier>{5fab5c55-0c6c-4d38-b9e5-0a8751362b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Util\Animation">
+      <UniqueIdentifier>{c75ca10b-6579-45fb-94e0-544b9fe63d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sprite\Enemy">
+      <UniqueIdentifier>{52eeaf87-6d68-48a2-a5b5-048c873bc888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sprite\Button">
+      <UniqueIdentifier>{1ef7683c-34e1-42ec-921e-ac8d1f9b105a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sprite\Treasure">
+      <UniqueIdentifier>{9503b8ab-15dc-42b6-9eae-aa08a34e1273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sprite\Player\HpBar">
+      <UniqueIdentifier>{d817f309-5c51-4dcb-8ee3-58919b797c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sprite\Player\ActionEffect">
+      <UniqueIdentifier>{bffb852d-2137-45c8-be9c-7808ab6f0f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sprite\LineBar">
+      <UniqueIdentifier>{d32432ec-0012-4952-9438-1621a3310583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sprite\PauseCount">
+      <UniqueIdentifier>{13c72c1a-9eea-4105-8791-d0e46cb8538b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Util\Json">
+      <UniqueIdentifier>{d9c9baa3-3af2-4600-95ab-96976b37bc69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Util\Android">
+      <UniqueIdentifier>{5dae5799-73c0-404b-8ef8-c21c320061b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Util\Rand">
+      <UniqueIdentifier>{c5e03ae5-b948-441e-9f40-a54805d8d3d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StartScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\soundManager.cpp">
+      <Filter>Game\Util\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JsonManager.cpp">
+      <Filter>Game\Util\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PCH.cpp">
+      <Filter>Game\Util\PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TitleScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BackGround.cpp">
+      <Filter>Game\Sprite\BackGroud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Bottom.cpp">
+      <Filter>Game\Sprite\BackGroud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainLogic.cpp">
+      <Filter>Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stage2.cpp">
+      <Filter>Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stage3.cpp">
+      <Filter>Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stage1.cpp">
+      <Filter>Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Coin.cpp">
+      <Filter>Game\Sprite\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollisionManager.cpp">
+      <Filter>Game\Util\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Box.cpp">
+      <Filter>Game\Sprite\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>Game\Sprite\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HpBar.cpp">
+      <Filter>Game\Sprite\Player\HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Animation.cpp">
+      <Filter>Game\Util\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Enemy.cpp">
+      <Filter>Game\Sprite\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Button.cpp">
+      <Filter>Game\Sprite\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Rope.cpp">
+      <Filter>Game\Sprite\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Knife.cpp">
+      <Filter>Game\Sprite\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Torch.cpp">
+      <Filter>Game\Sprite\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Treasure.cpp">
+      <Filter>Game\Sprite\Treasure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ActionEffect.cpp">
+      <Filter>Game\Sprite\Player\ActionEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LineBar.cpp">
+      <Filter>Game\Sprite\LineBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PauseScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOverScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PauseCount.cpp">
+      <Filter>Game\Sprite\PauseCount</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LodingScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TreasureRoomScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\OptionScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TreasureUpgrade.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EnemyHelpImage.cpp">
+      <Filter>Game\Sprite\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TutorialScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\json.cpp">
+      <Filter>Game\Util\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameSharing.cpp">
+      <Filter>Game\Util\Android</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StartScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\enumData.h">
+      <Filter>Game\Util\enum&amp;define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Macro.h">
+      <Filter>Game\Util\enum&amp;define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\soundManager.h">
+      <Filter>Game\Util\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SingleTon.h">
+      <Filter>Game\Util\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JsonManager.h">
+      <Filter>Game\Util\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PCH.h">
+      <Filter>Game\Util\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TitleScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BackGround.h">
+      <Filter>Game\Sprite\BackGroud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Bottom.h">
+      <Filter>Game\Sprite\BackGroud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainLogic.h">
+      <Filter>Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerData.h">
+      <Filter>Game\Util\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stage1.h">
+      <Filter>Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stage2.h">
+      <Filter>Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stage3.h">
+      <Filter>Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Coin.h">
+      <Filter>Game\Sprite\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollisionManager.h">
+      <Filter>Game\Util\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Box.h">
+      <Filter>Game\Sprite\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>Game\Sprite\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HpBar.h">
+      <Filter>Game\Sprite\Player\HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Animation.h">
+      <Filter>Game\Util\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Enemy.h">
+      <Filter>Game\Sprite\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Button.h">
+      <Filter>Game\Sprite\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Rope.h">
+      <Filter>Game\Sprite\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Torch.h">
+      <Filter>Game\Sprite\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Knife.h">
+      <Filter>Game\Sprite\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Treasure.h">
+      <Filter>Game\Sprite\Treasure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ButtonData.h">
+      <Filter>Game\Util\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ActionEffect.h">
+      <Filter>Game\Sprite\Player\ActionEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LineBar.h">
+      <Filter>Game\Sprite\LineBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PauseScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOverScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PauseCount.h">
+      <Filter>Game\Sprite\PauseCount</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LodingScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TreasureRoomScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\OptionScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TreasureUpgrade.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EnemyHelpImage.h">
+      <Filter>Game\Sprite\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TutorialScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CoustemJson.h">
+      <Filter>Game\Util\enum&amp;define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json.h">
+      <Filter>Game\Util\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json-forwards.h">
+      <Filter>Game\Util\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameSharing.h">
+      <Filter>Game\Util\Android</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Rand.h">
+      <Filter>Game\Util\Rand</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
